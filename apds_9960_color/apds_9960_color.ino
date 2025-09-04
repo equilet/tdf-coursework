@@ -1,10 +1,6 @@
 // / /#include "Particle.h"
 #include "SparkFun_APDS9960.h"
 
-// Define the system setup and log handler
-//SYSTEM_MODE(AUTOMATIC);
-//SYSTEM_THREAD(ENABLED);
-
 SparkFun_APDS9960 apds;
 
 void setup() {

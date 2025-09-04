@@ -5,8 +5,6 @@
   left -> right, or right -> left direction.
  ***************************************************************************/
 
-//#include "Particle.h"
-//#include "Adafruit_APDS9960_Particle.h"
 #include "Adafruit_APDS9960.h"
  
 Adafruit_APDS9960 apds;
@@ -14,7 +12,8 @@ Adafruit_APDS9960 apds;
 // the setup function runs once when you press reset or power the board
 void setup() {
   Serial.begin(115200);
-
+  delay(200);
+	
   if(!apds.begin()){
     Serial.println("failed to initialize device! Please check your wiring.");
   }
