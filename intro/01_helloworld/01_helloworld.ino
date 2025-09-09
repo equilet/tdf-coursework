@@ -5,6 +5,8 @@ int size_hello = sizeof(hello) - 1;
 
 // setup() runs once, when the device is first turned on
 void setup() {
+  Serial.begin(9600);
+  delay(200);
 }
 
 // loop() runs over and over again, as quickly as it can execute.

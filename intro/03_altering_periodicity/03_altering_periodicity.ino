@@ -14,7 +14,8 @@ void change_period(void);
 
 // setup() runs once, when the device is first turned on
 void setup() {
-  Serial.begin(115200);
+  Serial.begin(115200); //note that we change the baud rate here; your serial monitor needs to match this
+  delay(200);
   // enable interrupts
   interrupts();
   // Initialize the button pin as an input

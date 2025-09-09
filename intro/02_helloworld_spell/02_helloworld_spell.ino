@@ -10,7 +10,8 @@ int count = 0;
 void setup() {
   //note that you may not see this, as it happens very quickly 
   //...typically before you are able to connect to the serial port
-  //delay(20000);   
+  Serial.begin(9600);
+  delay(200);
   Serial.println("-------------Welcome to the Hello World example!-------------");
 }
 

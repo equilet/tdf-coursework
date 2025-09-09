@@ -17,6 +17,7 @@ void button_press(void); // function prototype for the button press function
 void setup() {
   interrupts();
   Serial.begin(115200);
+  delay(200);
   pinMode(button_in, INPUT_PULLDOWN);
   pinMode(LED_BUILTIN, OUTPUT);
   digitalWrite(LED_BUILTIN, LOW);

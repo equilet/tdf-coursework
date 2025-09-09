@@ -15,6 +15,7 @@ void setup() {
   // enable interrupts
   interrupts();
   Serial.begin(115200);
+  delay(200);
   // Initialize the button pin as an input
   pinMode(button_in, INPUT_PULLDOWN);
   pinMode(LED_BUILTIN, OUTPUT); //note that we don't specify a pin here; we leave it up to the boards manager 
