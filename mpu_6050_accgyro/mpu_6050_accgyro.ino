@@ -1,12 +1,6 @@
 // Include the necessary libraries
-//#include "Particle.h"
 #include "MPU6050.h"
 #define OUTPUT_READABLE_ACCELGYRO
-
-// Let Device OS manage the connection to the Particle Cloud
-//SYSTEM_MODE(AUTOMATIC);
-//SYSTEM_THREAD(ENABLED);
-//SerialLogHandler logHandler(LOG_LEVEL_INFO);
 
 const uint16_t ledPin = T5;
 const uint16_t buttonPin = T6;
