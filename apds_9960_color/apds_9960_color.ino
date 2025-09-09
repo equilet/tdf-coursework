@@ -1,4 +1,3 @@
-// / /#include "Particle.h"
 #include "SparkFun_APDS9960.h"
 
 SparkFun_APDS9960 apds;
