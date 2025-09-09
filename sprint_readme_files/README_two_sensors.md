@@ -1,6 +1,6 @@
 # Two sensor boards:  I2C communication 
 
-<p align="center"></div><img src="imgs/two_boards.jpg" width="600px"/></p>
+<p align="center"></div><img src="imgs/two_boards.JPG" width="600px"/></p>
 
 ### Physical Computing brings in the [natural world](https://en.wikipedia.org/wiki/Natural_environment)
 
