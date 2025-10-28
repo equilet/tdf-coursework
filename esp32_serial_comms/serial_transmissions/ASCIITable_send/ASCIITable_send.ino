@@ -5,6 +5,7 @@ void setup() {
   pinMode(LED_BUILTIN, OUTPUT);
   Serial.begin(115200);  //make sure that you have selected the correct baud rate in your serial monitor first!!
   Serial2.begin(9600, SERIAL_8N1, RX, TX);  //rx/tx: leave it up to our board's config to define the mapping of these pins
+  delay(300);
   //Serial.println("Sender ready");
 }
 
