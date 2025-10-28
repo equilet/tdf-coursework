@@ -28,5 +28,5 @@ void loop() {
   count++;
 
   // incur a delay of 3 seconds
-  delay(300);
+  delay(3000);
 }
